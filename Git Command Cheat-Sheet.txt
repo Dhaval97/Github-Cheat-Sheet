@@ -11,6 +11,9 @@ git status
 # to add files to git
 git add "file_name"
 
+# to add all the files
+git add --all / git add -A
+
 # to commit the files for tracking
 git commit
 
