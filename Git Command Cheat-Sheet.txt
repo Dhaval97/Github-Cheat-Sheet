@@ -70,8 +70,9 @@ touch .gitignore
 git branch
 
 # to create new branch (branch helps to saves the code from master branch -> master is the main branch)
-git branch "branch_name"
+git branch "branch_name" (you still remain in master branch, but new branch is created)
 git checkout "branch_name" (to switch between branches)
+git checkout -b "branch_name" (to create new branch and at the same time also switch)
 
 now whatever changes you make in new branch does not affect master branch.
 if your new branch is perfect and want to merge with master branch
