@@ -16,8 +16,10 @@ git add --all / git add -A
 
 # to commit the files for tracking
 git commit
-
 1. when you run git commit -> it opens up vim editor
 2. you need to press I(i) to enter the comment for the particular commit
 3. once to entered the commit press ESC
 4. after that enter -> :wq
+
+the shortcut for this is
+git commit -m "your_message_for_commit"
