@@ -26,3 +26,6 @@ git commit -m "your_message_for_commit"
 
 # to retrieve the file when you last commited
 git checkout "file_name"
+
+# to retrieve all the files from the last commit
+git checkout -f
