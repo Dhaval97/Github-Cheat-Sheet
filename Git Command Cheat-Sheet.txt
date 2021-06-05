@@ -77,3 +77,6 @@ now whatever changes you make in new branch does not affect master branch.
 if your new branch is perfect and want to merge with master branch
 1. go to your master branch -> git checkout master
 2. git merge "branch_name" (make sure you are in master branch)
+
+# to delete branch
+git branch -d "branch_name"
