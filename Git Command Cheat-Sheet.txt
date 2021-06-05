@@ -23,3 +23,6 @@ git commit
 
 the shortcut for this is
 git commit -m "your_message_for_commit"
+
+# to retrieve the file when you last commited
+git checkout "file_name"
