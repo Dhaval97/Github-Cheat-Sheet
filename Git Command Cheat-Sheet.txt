@@ -32,3 +32,9 @@ git checkout -f
 
 # to get the history of all commits
 git log
+
+# to compare your file from working directory to staging
+git diff
+
+# to compare your file from working directory to last commited
+git diff --staged
