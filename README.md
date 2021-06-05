@@ -1,2 +1,2 @@
 # Github-Cheat-Sheet
-All Git commands at one place - FOR BEGINNERS
+All Git commands at one place
