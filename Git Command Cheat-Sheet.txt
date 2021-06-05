@@ -2,6 +2,15 @@
 git config --global user.name "user_name" (w/o quotes)
 git config --global user.email "email-id" (w/o quotes)
 
+STEPS:
+1. git init
+2. git status
+3. git add file_name / git add -A
+4. git status
+5. git commit -m "message"
+6. git status
+7. to use direct commit -> git commit -a -m "message" (not recommended)
+
 # to initialize the git
 git init (this creates a new git repository)
 
@@ -38,3 +47,9 @@ git diff
 
 # to compare your file from working directory to last commited
 git diff --staged
+
+# to remove file from the staged (file will be present in disk)
+git rm --cached "file_name"
+
+# to remove file from disk + git
+git rm "file_name"
