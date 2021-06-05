@@ -64,3 +64,4 @@ touch .gitignore
 3. when using git add -> only .gitignore file will be added and the names in .gitignore will not be tracked
 4. to ignore a particular extension of file -> inside gitignore write *.log (for all log file with log extension -> all adds the files from all folders)
 5. to ignore only the files in the directory of .gitignore -> use /*.py (all files with .py only where .gitignore is there -> not in folder)
+6. to ignore a particular folder -> add "folder_name/" (dont forget the "/" at the end)
