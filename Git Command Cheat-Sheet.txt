@@ -95,3 +95,6 @@ git push -u "where_remote" "which_branch" -> git push origin master
 1. this will give error as you need to setup SSH keys and GPG keys
 2. go to your repository setting and select SSH and GPG keys
 3. just follow the procedure to add the SSH keys (no need to add GPG keys)
+
+# to clone a github repository
+git clone "website_url" "folder_name"
