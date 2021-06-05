@@ -1,0 +1,20 @@
+# when you first start git you need to configure name & email-id
+git config --global user.name "user_name" (w/o quotes)
+git config --global user.email "email-id" (w/o quotes)
+
+# to initialize the git
+git init (this creates a new git repository)
+
+# to check status of the files present in folder
+git status
+
+# to add files to git
+git add "file_name"
+
+# to commit the files for tracking
+git commit
+
+1. when you run git commit -> it opens up vim editor
+2. you need to press I(i) to enter the comment for the particular commit
+3. once to entered the commit press ESC
+4. after that enter -> :wq
