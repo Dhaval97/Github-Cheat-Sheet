@@ -82,3 +82,16 @@ if your new branch is perfect and want to merge with master branch
 # to delete branch
 git branch -d "branch_name" (works only when branch is fully merged)
 to force delete the branch use -> git branch -D "branch_name"
+
+# to add your git to remote
+copy the code from the github website when you create the repository
+git remote add origin website_url... (will be in this format, also make sure you have selected SSH rather than HTTP)
+
+# to view pull and push of remote
+git remote -v
+
+# how to push your git
+git push -u "where_remote" "which_branch" -> git push origin master
+1. this will give error as you need to setup SSH keys and GPG keys
+2. go to your repository setting and select SSH and GPG keys
+3. just follow the procedure to add the SSH keys (no need to add GPG keys)
