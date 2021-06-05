@@ -79,4 +79,4 @@ if your new branch is perfect and want to merge with master branch
 2. git merge "branch_name" (make sure you are in master branch)
 
 # to delete branch
-git branch -d "branch_name" (works only when branch is fully merged)
+git branch -d "branch_name"
