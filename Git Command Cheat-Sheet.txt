@@ -80,3 +80,4 @@ if your new branch is perfect and want to merge with master branch
 
 # to delete branch
 git branch -d "branch_name"
+to force delete the branch use -> git branch -D "branch_name"
