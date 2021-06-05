@@ -29,3 +29,6 @@ git checkout "file_name"
 
 # to retrieve all the files from the last commit
 git checkout -f
+
+# to get the history of all commits
+git log
